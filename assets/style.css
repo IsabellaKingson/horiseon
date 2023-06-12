@@ -1,15 +1,16 @@
-/*Defines basic styling for all elements*/
+/* Defines basic styling for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*Defines body specific styling */
+/* Defines body specific styling */
 body {
     background-color: #d9dcd6;
 }
 
+/* Changed the div element with the class of 'header' to a header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Since there should only be one h1 element in a document, I removed the class selector */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Simplified the selector since there is only one element with a class of 'seo' */
 .seo span {
     color: #d9dcd6;
 }
 
+/* Changed div element to a nav element to clarify its purpose and simplified the selectors for its child elements */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -48,6 +52,7 @@ nav a {
     text-decoration: none;
 }
 
+/* Changed div element to a figure element, but opted to keep the class selector for future clarity */
 .hero img {
     height: 800px;
     width: 100%;
@@ -56,12 +61,15 @@ nav a {
     background-position: center;
 }
 
+/* Reorganized CSS order to follow semantic structure of the HTML file */
+/* Changed the div element to main but opted to keep class selector for consistency with child elements */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changed div elements to sections and removed redundant code */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -71,6 +79,7 @@ nav a {
     color: #ffffff;
 }
 
+/* Removed redundant code */
 .content img {
     max-height: 200px;
 }
@@ -85,6 +94,7 @@ nav a {
     margin-left: 25px;
 }
 
+/* Removed redundant code */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -94,6 +104,7 @@ nav a {
     font-size: 16px;
 }
 
+/* Changed div element to an aside element since it is not the main content but kept class selector for consistency with child elements and for future development clarity */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,22 +116,26 @@ nav a {
     background-color: #2589bd;
 }
 
+/* Changed div elements to sections and removed redundant code */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Removed redundant code */
 .benefits h3{
     margin-bottom: 10px;
     text-align: center;    
 }
 
+/* Removed redundant code */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Changed div element to a footer element and removed unnecessary class selector */
 footer {
     padding: 30px;
     clear: both;
