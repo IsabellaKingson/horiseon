@@ -52,7 +52,7 @@ nav a {
     text-decoration: none;
 }
 
-/* Changed div element to a figure element, but opted to keep the class selector for future clarity */
+/* Changed div element to a figure element, but opted to keep the class selector for future clarity. I also moved the source of the background image into HTML*/
 .hero img {
     height: 800px;
     width: 100%;
@@ -143,6 +143,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
