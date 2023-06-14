@@ -26,11 +26,11 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This application is for grading purposes.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![Top of the webpage Horiseon](assets/images/Screenshot3.png)
+![Middle of the webpage Horiseon](assets/images/Screenshot2.png)
+![Bottom of the webpage Horiseon](assets/images/Screenshot3.png)
 
 ## Credits
 
