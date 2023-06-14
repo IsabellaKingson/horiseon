@@ -2,13 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 This project is a landing page for the social media management company Horiseon Social Solution Services, Inc. or 'Horiseon'. My motivation for this project was to refine the starter code so that it would meet accessiblity standards and have improved search engine optimization (SEO). 
 
 The starter code was separated into many div elements, which works visually, but is not optimal for screen readers and other accessibility tools. For this reason, I changed the code to have logical HTML semantic elements and added alt attributes to each image. I also added a title, 'Horiseon Social Services, Inc.,' to the head element to improve the site's SEO. 
